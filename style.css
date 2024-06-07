@@ -1,0 +1,224 @@
+@font-face {
+   font-family: nunito_sans;
+   src: url(static/NunitoSans_7pt-Regular.ttf);
+}
+
+body {
+   margin: 0;
+   overflow: hidden;
+}
+
+.main_div {
+   display: flex;
+}
+
+.ilustration_img {
+   width: 985px;
+   height: 100vh;
+}
+
+.right_div {
+   width: 420px;
+   height: 505px;
+   border: none;
+   margin-top: 36px;
+}
+
+.icon_flag_img {
+   width: 72px;
+   height: 72px;
+}
+
+.second_div {
+   margin-left: 140px;
+   margin-top: 90px;
+}
+
+.title {
+   font-family: nunito_sans;
+   font-size: 36px;
+   line-height: 49.1px;
+   font-weight: 700;
+   color: #525252;
+   margin-bottom: 0;
+   margin-top: 0;
+}
+
+.paragraph {
+   font-family: nunito_sans;
+   font-size: 16px;
+   line-height: 21.82px;
+   font-weight: 400;
+   color: #525252;
+   margin: 0;
+}
+
+.sign_in_button {
+   width: 420px;
+   height: 45px;
+   background-color: white;
+   font-family: nunito_sans;
+   font-size: 14px;
+   line-height: 19.1px;
+   font-weight: 700;
+   color: #525252;
+   margin-top: 32px;
+   background-image: url(gmail_icon.png);
+   background-repeat: no-repeat;
+   background-position: 100px center;
+   text-align: center;
+   border: 1px solid #E8E8E8;
+   border-radius: 5px;
+}
+
+.paragraph2 {
+   font-family: nunito_sans;
+   font-size: 12px;
+   line-height: 16.37px;
+   font-weight: 600;
+   color: #A1A1A1;
+   margin-left: 83px;
+   margin-top: 36px;
+}
+
+.paragraph_email {
+   font-family: nunito_sans;
+   font-size: 14px;
+   line-height: 19.1px;
+   font-weight: 600;
+   color: #828282;
+   margin-top: 36px;
+   margin-bottom: 0;
+}
+
+.input_email {
+   width: 420px;
+   height: 45px;
+   border: 1px solid #DED2D9 ;
+   border-radius: 5px;
+   background-image: url(message_email_icon.png);
+   background-repeat: no-repeat;
+   background-position: right 9px center;
+   padding: 0;
+   margin-top: 4px;
+}
+
+.input_email::placeholder {
+   font-family: nunito_sans;
+   font-size: 14px;
+   line-height: 19.1px;
+   font-weight: 400;
+   color: #828282;
+   margin-top: 36px;
+}
+
+.paragraph_password {
+   font-family: nunito_sans;
+   font-size: 14px;
+   line-height: 19.1px;
+   font-weight: 600;
+   color: #828282;
+   margin-top: 24px;
+   margin-bottom: 0;
+}
+
+.input_password {
+   width: 420px;
+   height: 45px;
+   border: 1px solid #DED2D9 ;
+   border-radius: 5px;
+   background-image: url(key.png);
+   background-repeat: no-repeat;
+   background-position: right 9px center;
+   padding: 0;
+}
+
+.checkbox {
+   font-family: nunito_sans;
+   font-size: 12px;
+   line-height: 16.37px;
+   font-weight: 400;
+   color: #A1A1A1;
+   margin-top: 2px;
+   margin-left: 2px;
+}
+
+.checkbox_input {
+   margin-top: 10px;
+   margin-left: 0;
+   margin-right: 0;
+   accent-color: #7F265B;
+}
+
+.forgot_password {
+  right: 10px;
+  margin-left: 195px;
+  display: inline-block;
+  font-family: nunito_sans;
+  font-size: 12px;
+  line-height: 16.37px;
+  font-weight: 600;
+  color: #7F265B;
+}
+
+.inline_block {
+   display: inline-block;
+}
+
+button {
+   width: 420px;
+   height: 50px;
+   background-color: #7F265B;
+   border-radius: 5px;
+   color: white;
+   font-family: nunito_sans;
+   font-size: 18px;
+   line-height: 24.55px;
+   font-weight: 600;
+   margin-top: 20px;
+}
+
+.last_paragraph1 {
+   font-family: nunito_sans;
+   font-size: 18px;
+   line-height: 24.55px;
+   font-weight: 400;
+   text-align: center;
+   display: inline-block;
+}
+
+.last_paragraph_div {
+   display: inline-block;
+}
+
+.last_paragraph2 {
+   display: inline;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+}
+
+.container p {
+   display: inline-block;
+   margin-top: 50px;
+}
+
+.gray_p {
+   color: #828282;
+   font-family: nunito_sans;
+   font-size: 18px;
+   line-height: 24.55px;
+   font-weight: 400;
+}
+
+.purple_p {
+   color: #7F265B;
+   font-family: nunito_sans;
+   font-size: 18px;
+   line-height: 24.55px;
+   font-weight: 600;
+   margin-left: 10px;
+}
+
